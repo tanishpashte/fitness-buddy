@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+        body{
+            font-family: "Jura",serif;
+        }
+    </style>
+    <link href="./output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="bg-slate-900 text-white px-4 py-8 h-screen box-border flex items-center justify-center">
+    <div id="container" class="sm:flex sm:justify-center sm:items-center sm:h-fit sm:rounded-lg sm:border sm:shadow-md sm:shadow-slate-50">
+        <div id="image" class="">
+            <img src="https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="rounded-xl sm:hidden">
+            <img src="https://images.pexels.com/photos/206515/pexels-photo-206515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="hidden sm:inline h-[500px] sm:object-contain rounded-l-lg">
+        </div>
+
+
+        <div id="content-container" class="mx-8">
+            <h1 class="text-4xl mt-4 mx-2">Create an account</h1>
+            <p class="text-slate-400 mx-2 sm:mb-12">Already have an account? <a href="#" class="underline hover:text-emerald-600">Log in</a></p>
+
+            <form id="input-field-container" class=" flex flex-col gap-3 sm:gap-4 mt-4 mx-2">
+                <input type="text" placeholder="Username" class="bg-slate-700 p-2 sm:p-3">
+                <input type="text" placeholder="Email" class="bg-slate-700 p-2 sm:p-3">
+                <input type="text" placeholder="Enter your Password" class="bg-slate-700 p-2 sm:p-3">
+                <input type="text" placeholder="Confirm Password" class="bg-slate-700 p-2 sm:p-3">
+                <button class="bg-emerald-600 p-2 sm:px-3 rounded w-fit hover:bg-emerald-800">Create Account</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/efd35c9483.js" crossorigin="anonymous"></script>
+</body>
+</html>
